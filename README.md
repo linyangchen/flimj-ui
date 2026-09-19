@@ -12,3 +12,7 @@ After Antigravity submitted the first implementation plan, this additional instr
 Modify the generated CSV structure so that for each target parameter, the original fitted value of that parameter is also included in the set of fixed values for that parameter.
 
 The first iteration jar was created from the above instructions and has not been tested manually by humans yet.
+
+Acknowledgements
+
+Timothée Levilly gave guidance on the use of AI.
