@@ -1,6 +1,6 @@
-The snapshot jar file contains the FLIMJ plugin with support plane analysis feature added by Google Antigravity according to Lakowicz 2006 section 4.10.3 p. 134.
+Support plane analysis (Lakowicz 2006 section 4.10.3 p. 134) is a rigorous way of assessing parameter uncertainty in decay curve fitting. It is very tedious to do manually, yet to my knowledge no mainstream fluorescence lifetime software to date has a feature to automate it.
 
-Built using an x64 PC running Windows 11, the latest version of Fiji as of 29 July 2026, and the version of FLIMJ cloned from GitHub on 11 September 2026.
+The snapshot jar file contains the FLIMJ plugin with support plane analysis feature added by Google Antigravity. Built using an x64 PC running Windows 11, the latest version of Fiji as of 29 July 2026, and the version of FLIMJ cloned from GitHub on 11 September 2026.
 
 To use it in Fiji, first make a backup of the original flimj-ui jar file and then download the jar file from this fork into the jars folder under the Fiji folder.
 
@@ -22,6 +22,8 @@ Modify the generated CSV structure so that for each target parameter, the origin
 ***
 
 The first iteration jar was created from the above instructions and has not been tested manually by humans yet.
+
+After exporting the csv, you can use it to plot the support planes using your favourite software.
 
 Acknowledgements
 
